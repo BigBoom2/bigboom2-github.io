@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Your Firm</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>About Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Our Story</h2>
+      <p>Founded in New Mexico, we have years of experience serving individuals, entrepreneurs, and small businesses with accurate accounting and tax expertise.</p>
+    </section>
+
+    <section>
+      <h2>Credentials</h2>
+      <p>Licensed CPA in the State of New Mexico. Member of the AICPA.</p>
+    </section>
+  </main>
+
+  <footer>
+    <small>© <span id="year"></span> Your Firm — Albuquerque, NM</small>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>

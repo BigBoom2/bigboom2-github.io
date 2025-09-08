@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Services — Your Firm</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Our Services</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Tax Services</h2>
+      <p>Individual & business tax preparation, IRS representation, and planning for future tax efficiency.</p>
+    </section>
+
+    <section>
+      <h2>Bookkeeping</h2>
+      <p>Accurate monthly bookkeeping to keep your business financials clear and organized.</p>
+    </section>
+
+    <section>
+      <h2>Payroll</h2>
+      <p>Reliable payroll services to ensure compliance and timely payments for your team.</p>
+    </section>
+  </main>
+
+  <footer>
+    <small>© <span id="year"></span> Your Firm — Albuquerque, NM</small>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
