@@ -11,7 +11,7 @@
     <h1>About Us</h1>
     <nav>
       <a href="index.html">Home</a>
-      <a href="about.html">About</a>
+      <a href="about.html" aria-current="page">About</a>
       <a href="services.html">Services</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -25,15 +25,15 @@
 
     <section>
       <h2>Credentials</h2>
-      <p></p>
+      
     </section>
   </main>
 
   <footer>
     <small>© <span id="year"></span> Cameron Accounting Solutions — Albuquerque, NM</small>
-    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
   </footer>
 </body>
 </html>
-
-
